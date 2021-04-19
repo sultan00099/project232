@@ -10,10 +10,10 @@ class MailController extends Controller
 {
     public function sending(){
         $cv = new \stdClass();
-        $cv -> receiver = 'Web Developer';
-        $cv -> sender = 'Sultan Abdualiyev';
+        $cv -> receiver = 'Yernur Kalikhan';
+        $cv -> sender = 'Yernur Kalikhan';
 
-        Mail::to("abdualievs47@gmail.com")->send(new MailSending($cv)); 
+        Mail::to("ernur.k088@gmail.com")->send(new MailSending($cv)); 
         
     }
 }

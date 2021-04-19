@@ -8,7 +8,9 @@
 </head>
 <body>
     Hello <i> {{ $send->sender }} </i>
-    <p>Your order is accepted. The shop emplopyee will contact you soon.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus ab itaque voluptatibus, quae aliquam fuga dignissimos, ipsam qui, impedit natus ipsa pariatur doloribus dolorem suscipit consequatur facere tenetur accusantium animi!
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias in officiis, animi beatae neque vitae? Corrupti unde non quas esse voluptas in, libero, totam inventore quaerat cum repellendus ipsa ratione.
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit voluptatem voluptatibus aperiam laborum eos magni delectus! Temporibus quos fuga voluptatem pariatur possimus natus iste necessitatibus commodi aspernatur et, amet debitis!</p>
     Thank You, <br>
     <i> {{ $send->receiver }} </i> 
 </body>

@@ -33,7 +33,7 @@ class MailSending extends Mailable
      */
     public function build()
     {
-        return $this->from('abdualievs47@gmail.com')->view('mail.sending')->text('mail.sending')->with(
+        return $this->from('ernur.k088@gmail.com')->view('mail.sending')->text('mail.sending')->with(
             [
             'testVarOne' => '1',
             'testVarTwo' => '2'

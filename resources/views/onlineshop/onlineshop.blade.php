@@ -123,10 +123,10 @@
                 <input type="submit" value="{{__('Send')}}" id="feedback">
             </div>
 
-            <!--<p class="notReg">Еще не зарегистрированы?</p>
+            <p class="notReg">Еще не зарегистрированы?</p>
             <div class="input-btn notReg-btn">
                 <input type="submit" value="Зарегистрироваться">
-            </div>-->
+            </div>
 
         </div>
     </div>
